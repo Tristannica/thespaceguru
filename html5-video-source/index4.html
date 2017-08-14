@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+  <!-- title and meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width,initial-scale=1.0" name="viewport">
+  <meta content="This tutorial serves as an introduction to the HTML5 video element, with examples including custom controls, background and fullscreen video." name="description">
+
+  <title>HTML5 Video Jumpstart With Examples</title>
+
+  <!-- css -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto+Slab">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/polyfill.object-fit.css">
+
+  <!-- js -->
+  <script src="js/modernizr.js"></script>
+</head>
+
+<body>
+
+<div class="wrapper demo3">
+
+  <header class="primary-header clearfix">
+    <div class="logo">
+      <a href="http://callmenick.com">
+        <img src="img/core/logo.svg" onerror="this.src=logo.png" alt="Call Me Nick - Tutorials, Resources, &amp; Articles for Web Design &amp; Web Development">
+      </a>
+    </div>
+    <nav class="primary-nav">
+      <a class="icon cmn-tut" data-title="Back To Tutorial" href="http://www.callmenick.com/?p=785"></a>
+      <a class="icon cmn-prev" data-title="Pevious Demo - More CSS Spinners &amp; Loaders" href="http://callmenick.com/tutorial-demos/css-loaders-and-spinners-2/"></a>
+      <a class="icon cmn-download" data-title="Download Source" href="http://www.callmenick.com/tutorial-demos/html5-video/html5-video-source.zip"></a>
+      <a class="icon cmn-archive" data-title="Tutorial Archives" href="http://www.callmenick.com/category/tutorials/"></a>
+    </nav>
+  </header><!-- /.primary-header -->
+
+  <nav class="demo-nav">
+    <ul>
+      <li><a href="index.html">Demo 1</a></li>
+      <li><a href="index2.html">Demo 2</a></li>
+      <li><a href="index3.html">Demo 3</a></li>
+      <li class="active"><a href="index4.html">Demo 4</a></li>
+    </ul>
+  </nav><!-- /nav.demo-nav -->
+
+  <main>
+    
+    <div class="container">
+      <div id="cmn-video-demo4__content">
+        <div class="cmn-video-demo4__content--header">
+          <h2>Kitty Kontrol</h2>
+          <p>Learn to talk to kittens like a pro!</p>
+          <a href="#">Get Started</a>
+        </div>
+      </div>
+      <div class="cmn-video-demo4__content--main">
+        <h2>About Kitty Kontrol</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos officia, architecto dolores suscipit tempore a quam possimus enim cumque fugiat modi libero hic earum nulla beatae, laboriosam quis quos ipsum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi adipisci quibusdam soluta laboriosam pariatur doloremque! Qui deserunt at nulla, ex ullam dolorem possimus, architecto quod veniam et ut porro? Dignissimos?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate tempore, dicta facere modi assumenda eligendi quibusdam, alias dolores odit sequi vitae, dignissimos accusamus nostrum iste aliquam, tenetur! Ratione, illum, ad!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos officia, architecto dolores suscipit tempore a quam possimus enim cumque fugiat modi libero hic earum nulla beatae, laboriosam quis quos ipsum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi adipisci quibusdam soluta laboriosam pariatur doloremque! Qui deserunt at nulla, ex ullam dolorem possimus, architecto quod veniam et ut porro? Dignissimos?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate tempore, dicta facere modi assumenda eligendi quibusdam, alias dolores odit sequi vitae, dignissimos accusamus nostrum iste aliquam, tenetur! Ratione, illum, ad!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos officia, architecto dolores suscipit tempore a quam possimus enim cumque fugiat modi libero hic earum nulla beatae, laboriosam quis quos ipsum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi adipisci quibusdam soluta laboriosam pariatur doloremque! Qui deserunt at nulla, ex ullam dolorem possimus, architecto quod veniam et ut porro? Dignissimos?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate tempore, dicta facere modi assumenda eligendi quibusdam, alias dolores odit sequi vitae, dignissimos accusamus nostrum iste aliquam, tenetur! Ratione, illum, ad!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos officia, architecto dolores suscipit tempore a quam possimus enim cumque fugiat modi libero hic earum nulla beatae, laboriosam quis quos ipsum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi adipisci quibusdam soluta laboriosam pariatur doloremque! Qui deserunt at nulla, ex ullam dolorem possimus, architecto quod veniam et ut porro? Dignissimos?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate tempore, dicta facere modi assumenda eligendi quibusdam, alias dolores odit sequi vitae, dignissimos accusamus nostrum iste aliquam, tenetur! Ratione, illum, ad!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos officia, architecto dolores suscipit tempore a quam possimus enim cumque fugiat modi libero hic earum nulla beatae, laboriosam quis quos ipsum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi adipisci quibusdam soluta laboriosam pariatur doloremque! Qui deserunt at nulla, ex ullam dolorem possimus, architecto quod veniam et ut porro? Dignissimos?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate tempore, dicta facere modi assumenda eligendi quibusdam, alias dolores odit sequi vitae, dignissimos accusamus nostrum iste aliquam, tenetur! Ratione, illum, ad!</p>
+      </div>
+    </div>
+
+  </main><!-- /main -->
+
+  <video id="cmn-video-demo4__video" autoplay muted loop>
+    <source src="media/demo.mp4" type="video/mp4">
+    <source src="media/demo.ogv" type="video/ogg">
+    <source src="media/demo.webm" type="video/webm">
+    Your browser doesn't support HTML5 video. Here's a <a href="#">link</a> to download the video.
+  </video>
+  
+</div><!-- /#wrapper -->
+
+<!-- js -->
+<script src="js/polyfill.object-fit.js"></script>
+<script>
+  objectFit.polyfill({
+    selector: 'video',
+    fittype: 'cover'
+  });
+</script>
+
+<!-- ads -->
+<!-- <script src="js/fusionad.js"></script> -->
+
+<!-- analytics -->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-34160351-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+</body>
+</html>
